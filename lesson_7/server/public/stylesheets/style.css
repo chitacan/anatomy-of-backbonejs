@@ -1,0 +1,85 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, b, ol, ul, li, form, label { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+
+html {
+  font: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  background: #e4b897 url(/images/bg-body.jpg) repeat;
+  font-size: 16px;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #333;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 62.5%; /* 1em = 10px */
+  padding: 50px;
+}
+
+.content {
+  background: #fff;
+  border-bottom: 3px solid #e1d9d3;
+  box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  width: 500px;
+}
+
+#app {
+  background: url(/images/bg-content.png) repeat;
+}
+
+h1 {
+  background: url(/images/bg-todo.png) 48px 0 repeat-y;
+  font: bold 4em/80px 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  padding: 0 20px 0 70px;
+  text-align: right;
+  text-transform: lowercase;
+}
+
+h3 {
+  background: url(/images/bg-todo.png) 48px 0 repeat-y;
+  font: normal 1.8em/38px 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  padding: 2px 80px 0 70px;
+  position: relative;
+}
+
+#app div div:last-child h3 {
+  padding-bottom: 10px;
+}
+
+h3 input {
+  left: 16px;
+  position: absolute;
+  top: 12px;
+}
+
+h3 a {
+  color: #be7837;
+  display: block;
+  font-size: 1.8em;
+  line-height: 38px;
+  opacity: 1;
+  padding-right: 20px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-decoration: none;
+  top: 2px;
+  width: 40px;
+}
+
+h3 a:hover,
+h3 a:focus {
+  color: #8fc8d6;
+}
+
+.complete {
+  color: #bbb;
+  text-decoration: line-through;
+}
+
+.complete a {
+  color: #bbb;
+}
