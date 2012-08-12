@@ -20,6 +20,6 @@ You can start server with `server.js` or `app.js` with following command.
 
     $node server.js
 
-If there is dependencies to start node server, type following command to install dependencies.
+If there is an error to start node server, type following command to install dependencies.
 
 	$npm install
